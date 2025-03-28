@@ -1,0 +1,172 @@
+.conatinerofcart{
+    margin:20px auto;
+    width: 70%;
+    background-color: rgb(255, 248, 243);
+    border: 2px solid black;
+    justify-content: space-around;
+    border-radius: 5%;
+}
+
+.cartItemsname, .cartItemsfunc{
+    width: 25%;
+}
+@media screen and (max-width: 768px) {
+    .Address{
+        margin-top: 80px;
+        margin-left:-100px;
+    }
+}
+.carthead{
+    display: flex;
+    justify-content: space-around;
+    height: 55px;
+    align-items: center;
+    border-bottom: 2px solid black;
+    font-size: 3rem;
+}
+
+.cartempty{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700px;
+}
+
+.cartimg{
+    width: 100px;
+    height: auto;
+    border-bottom: 2px solid black;
+    margin-right: 15px;
+}
+
+.cartlist{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 2pc;
+}
+
+.addbttn,.delbttn{
+    display: inline-block;
+    width: 30px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    border: black;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.addbttn{
+    background-color: red;
+}
+.delbttn{
+    background-color: rgb(142, 196, 61);
+}
+
+.addbttn :active{
+    transform: translateY(2px);
+
+}
+
+.delbttn :active{
+    transform: translateY(2px);
+
+}
+
+.finalamt {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 35%;
+    font-size: 20px;
+    font-weight: 700;
+    border-top: 2px solid black;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.finalamt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.finalamt-header h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.totprice {
+    font-size: 26px;
+    font-weight: bold;
+    color: #4CAF50;
+    padding-left: 30px;
+}
+
+.payment-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Address {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.Address:focus {
+    border-color: #4CAF50;
+}
+
+.paybtn {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.paybtn:hover {
+    background-color: #45a049;
+}
+
+
+.clearcart{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(238, 78, 78);
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    color: white;
+}
+.hbtn{
+    background-color: rgb(105, 132, 116);
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+}
+.history{
+    background-color: rgb(255, 248, 243);
+}

@@ -1,0 +1,91 @@
+.headcont {
+    background-color: black;
+    color: aliceblue;
+    height: 230px;
+    width: auto;
+    max-width: 1275px;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+}
+
+.company,
+.contact,
+.logo {
+    margin-left: 90.5px;
+    margin-right: 100.5px;
+}
+
+.logo {
+    margin-top: 53px;
+    width: 200px;
+    height: 200px;
+}
+
+.company,
+.contact {
+    width: 200px;
+    height: 200px;
+}
+
+.contact {
+    margin-left: 90px;
+    margin-right: 100px;
+}
+
+button {
+    color: rgb(100, 101, 102);
+    font-size: medium;
+}
+
+.fabt,
+.fteam,
+.fhelp {
+    margin-top: 20px;
+    margin-bottom: 29px;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .headcont {
+        height: auto;
+        padding: 20px;
+    }
+
+    .company,
+    .contact,
+    .logo {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .contact {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .headcont {
+        height: auto;
+        padding: 10px;
+        margin-left: 0;
+        margin-right: 0;
+        width: auto;
+    }
+
+    .company,
+    .contact,
+    .logo {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contact {
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+}

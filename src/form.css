@@ -1,0 +1,46 @@
+.forms {
+    width: 80%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 30px auto 80px;
+    text-align: center;
+    padding-bottom: 40px;
+    background-color: lightgray;
+}
+
+p {
+    text-align: center;
+    color: rgb(36, 30, 30);
+}
+
+.user, .mail, .pass, .cpass, .subtn {
+    width: 90%; 
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid rgb(172, 170, 170);
+    border-radius: 10px;
+}
+
+.user {
+    margin-top: 20px;
+}
+
+.mail, .pass, .cpass {
+    margin-top: 30px; 
+}
+
+.subtn {
+    margin-top: 30px;
+    background-color: rgb(21, 159, 213);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .forms {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,45 @@
+.form {
+    width: 80%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 100px auto;
+    background-color: lightgray;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.user, .pass, .loginbtn {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(172, 170, 170);
+}
+
+.pass {
+    margin-top: 20px;
+}
+
+.loginbtn {
+    margin-top: 30px;
+    background-color: rgb(21, 159, 213);
+    border: none;
+    color: white;
+}
+
+.Regbtn {
+    margin-left: 0;
+    padding: 10px;
+    background-color: lightgray;
+    border: none;
+    color: rgb(61, 158, 228);
+    border-radius: 10px;
+}
+
+.rgtxt {
+    text-align: center;
+}
